@@ -1,6 +1,7 @@
 # (©)Codexbotz
 # Recode by @mrismanaziz
 # t.me/SharingUserbot & t.me/Lunatic0de
+# Acak-acak by @SilenceSpe4ks
 
 import pyromod.listen
 import sys
@@ -85,7 +86,7 @@ class Bot(Client):
 
         self.set_parse_mode("html")
         self.LOGGER(__name__).info(
-            f"[🔥 BERHASIL DIAKTIFKAN! 🔥]\n\nBOT Dibuat oleh @{OWNER}\nJika @{OWNER} Membutuhkan Bantuan, Silahkan Tanyakan di Grup https://t.me/SharingUserbot"
+            f"[🔥 BOT BERHASIL DIAKTIFKAN! 🔥]\n\n☕ Managed By Ari\nhttps://t.me/SilenceSpe4ks"
         )
         self.username = usr_bot_me.username
 
