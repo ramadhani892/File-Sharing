@@ -17,7 +17,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             text = f"<b>👑 Owner : <a href='tg://user?id={OWNER_ID}'>Klik Disini</a>\n\n☕ Managed By : <a href='https://t.me/SilenceSpe4ks'>Klik Disini</a>\n\n🔥 Source Code : <a href='https://github.com/zigaz23'>Klik Disini</a></b>\n",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
-                [[InlineKeyboardButton("• ᴛᴜᴛᴜᴘ •", callback_data="close")]]
+                [[InlineKeyboardButton("❌ 𝙏𝙐𝙏𝙐𝙋 ❌", callback_data="close")]]
             ),
         )
     elif data == "close":
