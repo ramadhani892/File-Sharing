@@ -1,11 +1,11 @@
 # Bokep File Nich
 
-Bot Telegram untuk menyimpan Posting atau File yang dapat Diakses melalui Link Khusus.
-Saya Kira Ini Akan Bermanfaat Bagi Banyak Orang.. 😇.
+Bot Telegram untuk menyimpan Posting atau File Video Bokep yang dapat Diakses melalui Link Khusus.
+Dan, Saya Kira Ini Akan Bermanfaat Bagi Banyak Orang untuk menonton bokep melalui bot ini
 
 ##
 
-**Jika Anda memerlukan tambahan module lagi dalam repo atau Jika Anda menemukan bug, silahkan report di group [@SharingUserbot](https://www.telegram.dog/SharingUserbot)**
+**Jika Anda memerlukan tambahan module lagi dalam repo atau Jika Anda menemukan bug, silahkan report di group [Sharing Userbot Telegram](https://www.telegram.dog/SharingUserbot)**
 
 ### Features
 - Sepenuhnya dapat dicustom.
