@@ -115,11 +115,11 @@ async def start_command(client: Client, message: Message):
         buttons = [
             [InlineKeyboardButton("• ᴛᴇɴᴛᴀɴɢ sᴀʏᴀ •", callback_data="about")],
             [
-                InlineKeyboardButton("𝗖𝗛𝗔𝗡𝗡𝗘𝗟", url=client.invitelink),
-                InlineKeyboardButton("𝗚𝗥𝗢𝗨𝗣", url=client.invitelink2),
+                InlineKeyboardButton(𝗝𝗢𝗜𝗡 𝗗𝗨𝗟𝗨", url=client.invitelink),
+                InlineKeyboardButton("𝗝𝗢𝗜𝗡 𝗟𝗔𝗚𝗜", url=client.invitelink2),
             ],
             [
-                InlineKeyboardButton("• ᴛᴜᴛᴜᴘ •", callback_data="close"),
+                InlineKeyboardButton("• ɢᴀsᴋᴇᴜɴ •", callback_data="close"),
             ],
         ]
         await message.reply_text(
@@ -144,8 +144,8 @@ async def start_command(client: Client, message: Message):
 async def not_joined(client: Client, message: Message):
     buttons = [
         [
-            InlineKeyboardButton("𝗖𝗛𝗔𝗡𝗡𝗘𝗟", url=client.invitelink),
-            InlineKeyboardButton("𝗚𝗥𝗢𝗨𝗣", url=client.invitelink2),
+            InlineKeyboardButton("𝗝𝗢𝗜𝗡 𝗗𝗨𝗟𝗨", url=client.invitelink),
+            InlineKeyboardButton("𝗝𝗢𝗜𝗡 𝗟𝗔𝗚𝗜", url=client.invitelink2),
         ],
     ]
     try:
