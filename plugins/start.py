@@ -1,6 +1,6 @@
 # (©)Codexbotz
 # Recode by @mrismanaziz
-# t.me/SharingUserbot & t.me/Lunatic0de
+# Acak-acak by @SilenceSpe4ks
 
 import asyncio
 from datetime import datetime
@@ -115,7 +115,7 @@ async def start_command(client: Client, message: Message):
         buttons = [
             [InlineKeyboardButton("• ᴛᴇɴᴛᴀɴɢ sᴀʏᴀ •", callback_data="about")],
             [
-                InlineKeyboardButton(𝗝𝗢𝗜𝗡 𝗗𝗨𝗟𝗨", url=client.invitelink),
+                InlineKeyboardButton("𝗝𝗢𝗜𝗡 𝗗𝗨𝗟𝗨", url=client.invitelink),
                 InlineKeyboardButton("𝗝𝗢𝗜𝗡 𝗟𝗔𝗚𝗜", url=client.invitelink2),
             ],
             [
