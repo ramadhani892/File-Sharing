@@ -6,7 +6,7 @@
 from pyrogram.types import CallbackQuery, InlineKeyboardButton, InlineKeyboardMarkup
 
 from bot import Bot
-from config import OWNER_ID
+from config import CHANNEL, GROUP, OWNER
 
 
 @Bot.on_callback_query()
@@ -14,7 +14,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>👑 Owner : <a href='tg://user?id={OWNER_ID}'>Klik Disini</a>\n\n☕ Managed By : <a href='https://t.me/SilenceSpe4ks'>Klik Disini</a>\n\n🔥 Source Code : <a href='https://github.com/zigaz23'>Klik Disini</a></b>\n",
+            text=f"<b>📔 ᴛᴇɴᴛᴀɴɢ ʙᴏᴛ ɪɴɪ 📖:\n\n 👉 ᴏᴡɴᴇʀ ʙᴏᴛ: @{OWNER}'>ᴋʟɪᴋ ᴅɪsɪɴɪ</a>\n\n☕ ᴍᴀɴᴀɢᴇ ʙʏ : <a href='https://t.me/SilenceSpe4ks'>ᴋʟɪᴋ ᴅɪsɪɴɪ</a>\n\n🔥 sᴜᴘᴘᴏʀᴛ ʙʏ: <a href='https://t.me/SharingUserbot'>ᴋʟɪᴋ ᴅɪsɪɴɪ</a></b>\n",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [[InlineKeyboardButton("❌ 𝙏𝙐𝙏𝙐𝙋 ❌", callback_data="close")]]
