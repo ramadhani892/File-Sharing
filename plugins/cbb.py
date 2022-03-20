@@ -14,7 +14,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text=f"<b>📔 ᴛᴇɴᴛᴀɴɢ ʙᴏᴛ ɪɴɪ 📖:\n\n 👉 ᴏᴡɴᴇʀ ʙᴏᴛ: @{OWNER}'>ᴋʟɪᴋ ᴅɪsɪɴɪ</a>\n\n☕ ᴍᴀɴᴀɢᴇ ʙʏ : <a href='https://t.me/SilenceSpe4ks'>ᴋʟɪᴋ ᴅɪsɪɴɪ</a>\n\n🔥 sᴜᴘᴘᴏʀᴛ ʙʏ: <a href='https://t.me/SharingUserbot'>ᴋʟɪᴋ ᴅɪsɪɴɪ</a></b>\n",
+            text=f"<b>📔 ᴛᴇɴᴛᴀɴɢ ʙᴏᴛ ɪɴɪ 📖:\n\n👉 ᴏᴡɴᴇʀ ʙᴏᴛ: @{OWNER}\n\n☕ ᴍᴀɴᴀɢᴇ ʙʏ : <a href='https://t.me/SilenceSpe4ks'>ᴋʟɪᴋ ᴅɪsɪɴɪ</a>\n\n🔥 sᴜᴘᴘᴏʀᴛ ʙʏ: <a href='https://t.me/SharingUserbot'>ᴋʟɪᴋ ᴅɪsɪɴɪ</a></b>\n",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [[InlineKeyboardButton("❌ 𝙏𝙐𝙏𝙐𝙋 ❌", callback_data="close")]]
