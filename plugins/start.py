@@ -115,11 +115,11 @@ async def start_command(client: Client, message: Message):
         buttons = [
             [InlineKeyboardButton("• ᴛᴇɴᴛᴀɴɢ sᴀʏᴀ •", callback_data="about")],
             [
-                InlineKeyboardButton("𝗝𝗢𝗜𝗡 𝗗𝗨𝗟𝗨", url=client.invitelink),
-                InlineKeyboardButton("𝗝𝗢𝗜𝗡 𝗟𝗔𝗚𝗜", url=client.invitelink2),
+                InlineKeyboardButton("✳️ 𝗝𝗢𝗜𝗡 𝗗𝗨𝗟𝗨", url=client.invitelink),
+                InlineKeyboardButton("𝗝𝗢𝗜𝗡 𝗟𝗔𝗚𝗜 ✳️", url=client.invitelink2),
             ],
             [
-                InlineKeyboardButton("• ɢᴀsᴋᴇᴜɴ •", callback_data="close"),
+                InlineKeyboardButton("• ᴛᴜᴛᴜᴘ •", callback_data="close"),
             ],
         ]
         await message.reply_text(
@@ -144,15 +144,15 @@ async def start_command(client: Client, message: Message):
 async def not_joined(client: Client, message: Message):
     buttons = [
         [
-            InlineKeyboardButton("𝗝𝗢𝗜𝗡 𝗗𝗨𝗟𝗨", url=client.invitelink),
-            InlineKeyboardButton("𝗝𝗢𝗜𝗡 𝗟𝗔𝗚𝗜", url=client.invitelink2),
+            InlineKeyboardButton("✳️ 𝗝𝗢𝗜𝗡 𝗗𝗨𝗟𝗨", url=client.invitelink),
+            InlineKeyboardButton("𝗝𝗢𝗜𝗡 𝗟𝗔𝗚𝗜 ✳️", url=client.invitelink2),
         ],
     ]
     try:
         buttons.append(
             [
                 InlineKeyboardButton(
-                    text="ᴄᴏʙᴀ ʟᴀɢɪ",
+                    text="•ᴄᴏʙᴀ ʟᴀɢɪ•",
                     url=f"https://t.me/{client.username}?start={message.command[1]}",
                 )
             ]
