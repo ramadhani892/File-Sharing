@@ -1,5 +1,6 @@
 # Credits: @mrismanaziz
 # Acak-Acak by: @SilenceSpe4ks
+# Powered by: @SharingUserbot
 
 
 from config import FORCE_SUB_CHANNEL, FORCE_SUB_GROUP
