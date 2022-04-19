@@ -93,7 +93,7 @@ class Bot(Client):
 
         self.set_parse_mode("html")
         self.LOGGER(__name__).info(
-            f"[🔥 BOT BERHASIL DIAKTIFKAN! 🔥]\n\n☕ Managed By Ari\nhttps://t.me/Lahsiajg"
+            f"[🐨 FILE SHARING MU SUDAH AKTIF! 🐨]\n\n☕ Managed By : @lahsiajg"
         )
         self.username = usr_bot_me.username
 
