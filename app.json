@@ -1,12 +1,12 @@
 {
-  "name": "File Sharing Man",
+  "name": "File Sharing",
   "description": "BOT Multi Force Subs File Sharing Bot berguna untuk menyimpan file dan dapat diakses melalui link khusus",
   "keywords": [
     "telegram",
     "file",
     "sharing"
   ],
-  "repository": "https://github.com/mrismanaziz/File-Sharing-Man",
+  "repository": "https://github.com/ramadhani892/File-Sharing",
   "logo": "https://telegra.ph/file/9dc4e335feaaf6a214818.jpg",
   "env": {
     "TG_BOT_TOKEN": {
@@ -15,15 +15,15 @@
     },
     "OWNER": {
       "description": "Masukan Username Telegram untuk Owner BOT [ Jangan Pake @ ]",
-      "value": "SilenceSpe4ks"
+      "value": "LahSiajg"
     },
     "OWNER_ID": {
       "description": "Masukan User ID Telegram untuk Owner BOT",
-      "value": "883761960"
+      "value": "1883494460"
     },
     "ADMINS": {
       "description": "Masukan User ID untuk mendapatkan hak Admin BOT [Hanya dapat membuat link]",
-      "value": "838947027 2081878340 2119139154"
+      "value": "1883494460"
     },
     "APP_ID": {
       "description": "Dapatkan APP ID di web my.telegram.org",
@@ -35,7 +35,7 @@
     },
     "CHANNEL_ID": {
       "description": "Masukan ID Channel Untuk [Channel Database]",
-      "value": "-1001314357307"
+      "value": "-1001784698999"
     },
     "FORCE_SUB_CHANNEL": {
       "description": "Masukan ID dari Channel Atau Group Untuk Wajib Subscribenya",
@@ -55,12 +55,12 @@
     },
     "CHANNEL":{
       "description": "Masukan Username Channel anda Untuk Wajib Subscribenya [ Jangan Pake @ ]",
-      "value": "asupanonlyfun18",
+      "value": "Chbiologi",
       "required": false
     },
     "GROUP":{
       "description": "Masukan Username dari Group anda Untuk Wajib Subscribenya [ Jangan Pake @ ]",
-      "value": "onlyfun_18",
+      "value": "OnlyFun",
       "required": false
     }
   },
